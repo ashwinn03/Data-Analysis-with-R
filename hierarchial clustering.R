@@ -1,7 +1,4 @@
-Auto <- read.table("//home/cim/pgt/mhac062/Documents/R/nci.data.txt", header=T, na.strings="?")
-Auto<-scale(Auto, center=FALSE, scale=TRUE)
-x<-t(Auto)
-label<- read.table("//home/cim/pgt/mhac062/Documents/R/label.txt", na.strings="?")
+
 
 
 hclustering <- function(data,method)
