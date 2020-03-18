@@ -1,5 +1,5 @@
 
-
+# logistic regression using gradient descent
 
 logistic_regression <- function(X_train,X_test,y_train,y_test,learning_rate,no_of_steps)
 {
